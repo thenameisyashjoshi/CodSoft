@@ -16,7 +16,7 @@ public class GussestheNumber {
         System.out.println("---Wellcome to the Gusses The Number Game---");
         while (Play) {
 
-             //It will take Ramdom Number from 100 and substract the random number by 1
+             //It will take Ramdom Number from 1 to 100 and substract the random number by 7
             int Random_Num = random.nextInt(100) - 7;
             int attempts = 0;
             boolean GussesNumber = false;
@@ -68,3 +68,4 @@ public class GussestheNumber {
         sc.close();
     }
 }
+
